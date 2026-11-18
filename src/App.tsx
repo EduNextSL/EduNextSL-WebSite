@@ -13,6 +13,7 @@ import Testimonials from "./components/Testimonials";
 import Footer from "./components/Footer";
 import TermsAndConditions from "./components/TermsAndConditions";
 import PrivacyPolicy from "./components/PrivacyPolicy";
+import DataDeletion from "./components/DataDeletion";
 
 function Home() {
   useEffect(() => {
@@ -53,6 +54,7 @@ function App() {
       <Route path="/" element={<Home />} />
       <Route path="/terms" element={<TermsAndConditions />} />
       <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+      <Route path="/data-deletion" element={<DataDeletion />} />
     </Routes>
   );
 }
